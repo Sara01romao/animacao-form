@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+.content{
+    max-width: 800px;
+    height: 200px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+
+.fade{
+    animation: fade 0.9s ease-in forwards;
+    
+}
+
+
+@keyframes fade {
+    from{
+        opacity: 0;
+
+    }
+
+    to{
+        opacity: 1px;
+        transition: 0.8s ease-in ;
+    }
+}
